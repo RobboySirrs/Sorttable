@@ -1,7 +1,14 @@
-#How to use
+#Info
+
+1. Works on multiple tables
+2. Have not tested it's limits with type of data yet.
+
+# How to use
 
 Table layout should be like this
-<table table-sort id="theTable">
+```
+
+<table table-sort id="theTable"> 
       <tbody>
         <tr>
           <th>ID</th>
@@ -11,13 +18,14 @@ Table layout should be like this
         </tr>
       </tbody>
       </table>
-
-Add table-sort to table element like this: <table table-sort>
+```
+Add table-sort to tables element to activate sorting like this: 
+```<table table-sort>```
 
 Now it should work by clicking on the tableheader <th>
 
-If Data in the column is numbers only add data-type="number" like this: <th data-type="number">ID </th>
+If Data in the column is numbers only add data-type="number" like this: ```<th data-type="number">ID </th>```
 
-If you should not sort on a certain columnt add no-sort like this: <th no-sort data-type="number">ID</th>
+If you should not sort on a certain columnt add no-sort like this: ```<th no-sort data-type="number">ID</th>```
 
 See files for examples.
