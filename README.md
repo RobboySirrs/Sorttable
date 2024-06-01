@@ -25,6 +25,7 @@ Add table-sort to tables element to activate sorting like this:
 Now it should work by clicking on the tableheader <th>
 
 If Data in the column is numbers  = add data-type="number" like this: ```<th data-type="number">ID </th>```
+
 If Data in the column are Dates or time = add data-type="date" like this: ```<th data-type="number">ID </th>```
 
 
